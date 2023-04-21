@@ -8,7 +8,7 @@ int main(void) {
 
     int list[SIZE] = {39, 12, 80, 45, 25};
 
-    printf("----- 정렬 전 -----");
+    printf("----- 정렬 전 -----\n");
 
     for (i = 0; i < SIZE; i++){
         printf("%d: ", list[i]);

@@ -8,8 +8,9 @@ int main(void) {
 
     for (i = 0; i < 3; i++){ // 행
         for (j = 0; j < 5; j++){ // 열
-            printf("*");
+            printf("a[%d][%d] = %d ", i, j, a[i][j]);
         }
+        printf("\n");
     }
 
 	return 0;
