@@ -5,7 +5,15 @@
 
 int main(void) {
 	int i;
-    int code[SIZE];
+    int codes[SIZE];
+
+	for (i = 0; i < SIZE; i++)
+		codes[i] = 'a' + i;
+
+	for (i = 0; i < SIZE; i++)
+		printf("%c", codes[i]);
+
+	printf("\n\n");
 
 	return 0;
 }
